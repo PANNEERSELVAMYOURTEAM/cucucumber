@@ -1,0 +1,789 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3675190221,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.BeforeClass()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "to get the customer registration",
+        "description": "",
+        "id": "title-of-your-feature;to-get-the-customer-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 758464506,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4584850713,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer is in the home page first",
+            "match": {
+              "location": "AddCustomerOneDiemensionalMap.customer_is_in_the_home_page_first()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2100074431,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks add customer button in home page",
+            "match": {
+              "location": "AddCustomerOneDiemensionalMap.user_clicks_add_customer_button_in_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3752748008,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user fills the details and clicks submit button",
+            "match": {
+              "location": "AddCustomerOneDiemensionalMap.user_fills_the_details_and_clicks_submit_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "panneer"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "selvam"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "panneer@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "addr",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phno",
+                  "9840156060"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61001691,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user Should get registration id",
+            "match": {
+              "location": "AddCustomerOneDiemensionalMap.user_Should_get_registration_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/workspace/cucumbertasks/src/test/resources/feature/AddCustomerOneDiemensionalmap.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2485623607,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.BeforeClass()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "multiple no of users accessing add customer parellely",
+        "description": "",
+        "id": "scenario-outline-for-add-customer-one-diemension-list-class;multiple-no-of-users-accessing-add-customer-parellely;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 744635890,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7178329390,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in the home page of demoTest",
+            "match": {
+              "location": "ScenarioOutlineForAddCustomer.user_is_in_the_home_page_of_demoTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3088359375,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is filling all the fields and clicks submit button\"panneer\",\"selvam\",\"panneer@gmail.com\",\"chennai\",\"9840156060\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"panneer\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"selvam\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"panneer@gmail.com\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"9840156060\"",
+                  "offset": 104
+                }
+              ],
+              "location": "ScenarioOutlineForAddCustomer.user_is_filling_all_the_fields_and_clicks_submit_button(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126517506,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should get registration id",
+            "match": {
+              "location": "ScenarioOutlineForAddCustomer.the_user_should_get_registration_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2571304158,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.BeforeClass()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "multiple no of users accessing add customer parellely",
+        "description": "",
+        "id": "scenario-outline-for-add-customer-one-diemension-list-class;multiple-no-of-users-accessing-add-customer-parellely;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 731354671,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6825164067,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in the home page of demoTest",
+            "match": {
+              "location": "ScenarioOutlineForAddCustomer.user_is_in_the_home_page_of_demoTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3019222377,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is filling all the fields and clicks submit button\"dhana\",\"sekar\",\"dhana@gmail.com\",\"chennai\",\"9677108674\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dhana\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"sekar\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"dhana@gmail.com\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"9677108674\"",
+                  "offset": 99
+                }
+              ],
+              "location": "ScenarioOutlineForAddCustomer.user_is_filling_all_the_fields_and_clicks_submit_button(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57656487,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should get registration id",
+            "match": {
+              "location": "ScenarioOutlineForAddCustomer.the_user_should_get_registration_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2531098611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.BeforeClass()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "multiple no of users accessing add customer parellely",
+        "description": "",
+        "id": "scenario-outline-for-add-customer-one-diemension-list-class;multiple-no-of-users-accessing-add-customer-parellely;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 784692424,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8837763701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in the home page of demoTest",
+            "match": {
+              "location": "ScenarioOutlineForAddCustomer.user_is_in_the_home_page_of_demoTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3031851281,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is filling all the fields and clicks submit button\"karthi\",\"raaasa\",\"pulirasa@gmail.com\",\"chennai\",\"8667540679\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karthi\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"raaasa\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"pulirasa@gmail.com\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"8667540679\"",
+                  "offset": 104
+                }
+              ],
+              "location": "ScenarioOutlineForAddCustomer.user_is_filling_all_the_fields_and_clicks_submit_button(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56546867,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should get registration id",
+            "match": {
+              "location": "ScenarioOutlineForAddCustomer.the_user_should_get_registration_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "scenario outline for add customer one diemension list class",
+    "description": "",
+    "id": "scenario-outline-for-add-customer-one-diemension-list-class",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/workspace/cucumbertasks/src/test/resources/feature/ScenarioOutlineOfAddCustomer.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2350202917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.BeforeClass()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "to get the customer registration no",
+        "description": "",
+        "id": "when-user-clicks-the-add-customer;to-get-the-customer-registration-no",
+        "after": [
+          {
+            "result": {
+              "duration": 775423168,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4580562389,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer is in the home page",
+            "match": {
+              "location": "AddCustomer1DList.customer_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3267345262,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer clicks add customer button",
+            "match": {
+              "location": "AddCustomer1DList.customer_clicks_add_customer_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 917364724,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer filling all the fields with valid texts",
+            "match": {
+              "location": "AddCustomer1DList.customer_filling_all_the_fields_with_valid_texts(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "panneer",
+                  "selvam",
+                  "panneerselvamjune7@gmail.com",
+                  "thiruvottriyur",
+                  "9840156060"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71729151,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "customer clicks done button",
+            "match": {
+              "location": "AddCustomer1DList.customer_clicks_done_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2418589905,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "customer clicks submit button",
+            "match": {
+              "location": "AddCustomer1DList.customer_clicks_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87728728,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user should get registration number",
+            "match": {
+              "location": "AddCustomer1DList.the_user_should_get_registration_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "when User clicks The Add customer",
+    "description": "",
+    "id": "when-user-clicks-the-add-customer",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/workspace/cucumbertasks/src/test/resources/feature/UserClicksAddCustomer.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2512471528,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.BeforeClass()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "to get Valid mesage",
+        "description": "",
+        "id": "add-tariff-plan-using-one-diemensional-list;to-get-valid-mesage",
+        "after": [
+          {
+            "result": {
+              "duration": 2659276935,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5902909263,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer is in the home page of demo",
+            "match": {
+              "location": "AddTariffPlanUsing1dList.customer_is_in_the_home_page_of_demo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2063734114,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer clicks add tariff button",
+            "match": {
+              "location": "AddTariffPlanUsing1dList.customer_clicks_add_tariff_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1336536620,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer filling all the fields with valid numbers",
+            "match": {
+              "location": "AddTariffPlanUsing1dList.customer_filling_all_the_fields_with_valid_numbers(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "10000",
+                  "2000",
+                  "1000",
+                  "5000",
+                  "59",
+                  "25",
+                  "100"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2159708010,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "customer click submit button",
+            "match": {
+              "location": "AddTariffPlanUsing1dList.customer_click_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59372804,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should get valid message",
+            "match": {
+              "location": "AddTariffPlanUsing1dList.the_user_should_get_valid_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 922890012,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user goes to the home page",
+            "match": {
+              "location": "AddTariffPlanUsing1dList.the_user_goes_to_the_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "add Tariff plan using one diemensional list",
+    "description": "",
+    "id": "add-tariff-plan-using-one-diemensional-list",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/workspace/cucumbertasks/src/test/resources/feature/UserClicksAddTariffPlanUsingOneDList.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2547751643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.BeforeClass()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "to get registration id",
+        "description": "",
+        "id": "using-2d-list-we-give-values;to-get-registration-id",
+        "after": [
+          {
+            "result": {
+              "duration": 734616244,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7689937247,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "customer is in the home page firsts",
+            "match": {
+              "location": "AddCustomerUsing2DList.customer_is_in_the_home_page_firsts()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2615925375,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks add customer button in home pages",
+            "match": {
+              "location": "AddCustomerUsing2DList.user_clicks_add_customer_button_in_home_pages()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3338090239,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fills the details and clicks submit buttonss",
+            "match": {
+              "location": "AddCustomerUsing2DList.user_fills_the_details_and_clicks_submit_buttonss(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "panneer",
+                  "selvam",
+                  "panneer@gmail.com",
+                  "chennai",
+                  "9860878789"
+                ]
+              },
+              {
+                "cells": [
+                  "dhana",
+                  "sekar",
+                  "dhana@gmail.com",
+                  "trichy",
+                  "9788567890"
+                ]
+              },
+              {
+                "cells": [
+                  "karthi",
+                  "raja",
+                  "pulirasa@gmail.com",
+                  "chennai",
+                  "7668769768"
+                ]
+              },
+              {
+                "cells": [
+                  "tamil",
+                  "vendan",
+                  "tamil@gmail.com",
+                  "royapuram",
+                  "8765456767"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49177917,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Should get registration idss",
+            "match": {
+              "location": "AddCustomerUsing2DList.user_Should_get_registration_idss()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "using 2d list we give values",
+    "description": "",
+    "id": "using-2d-list-we-give-values",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/workspace/cucumbertasks/src/test/resources/feature/addCustomerUsing2DList.feature",
+    "tags": []
+  }
+]

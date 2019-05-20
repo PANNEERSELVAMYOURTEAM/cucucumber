@@ -1,10 +1,11 @@
 Feature: Title of your feature
   I want to use this template for my feature file
 
-  @tag1
+
+   
   Scenario: to get the customer registration
-    Given customer is in the home page first
-    And user clicks add customer button in home page
+  Given customer is in the home page first
+   And user clicks add customer button in home page
     When user fills the details and clicks submit button 
       | fname  | panneer     |
       | lname|selvam|

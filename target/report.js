@@ -7,12 +7,7 @@ formatter.feature({
 formatter.scenario({
   "name": "to get the customer registration",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@tag1"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.before({
   "status": "passed"
